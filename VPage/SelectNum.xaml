@@ -1,0 +1,133 @@
+﻿<Page x:Class="第二组综合设计地铁购票系统.VPage.SelectNum"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:第二组综合设计地铁购票系统.VPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="900"
+    
+      Title="SelectNum">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Margin="70 0 0 0">
+            <TextBlock Text="购票信息" FontSize="30" FontFamily="楷体" 
+                       Margin="140 60 0 0"
+                       Foreground="#FF1AAADF" />
+            <Border  Margin="180 20 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <Border Width="180" Background="AliceBlue" CornerRadius="20">
+                        <TextBlock Text="车票类型:" FontFamily="楷体" FontSize="27" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="单程票" FontFamily="楷体" FontSize="27"  Margin="20 0 0 0" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+            <Border Margin="180 20 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <Border Width="180" Background="AliceBlue" CornerRadius="20">
+                        <TextBlock Text="有效日期:" FontFamily="楷体" FontSize="27" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="2018-12-16" FontFamily="楷体" Margin="20 0 0 0" 
+                               Name="titime"
+                               FontSize="27" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+            <Border Margin="180 20 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <Border Width="180" Background="AliceBlue" CornerRadius="20">
+                        <TextBlock Text="起始车站:" FontFamily="楷体" FontSize="27" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="河南工业大学" FontFamily="楷体" 
+                               Name="source"
+                               Margin="20 0 0 0" FontSize="27" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+            <Border Margin="180 20 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <Border Width="180" Background="AliceBlue" CornerRadius="20">
+                        <TextBlock Text="目的车站:" FontFamily="楷体" FontSize="27" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="郑州火车站" 
+                               Name="destin"
+                               FontFamily="楷体" Margin="20 0 0 0" FontSize="27" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+            <Border Margin="180 20 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <Border Width="180" Background="AliceBlue" CornerRadius="20">
+                        <TextBlock Text="购票数量:" FontFamily="楷体" 
+                                  
+                                   FontSize="27" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="1" FontFamily="楷体" 
+                                Name="tic_num"
+                               Margin="20 0 0 0" FontSize="27" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+            <Border Margin="180 20 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <Border Width="180" Background="AliceBlue" CornerRadius="20">
+                        <TextBlock Text="单价:" FontFamily="楷体" FontSize="27" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="4.0元" 
+                               Name="price_"
+                               FontFamily="楷体" Margin="20 0 0 0" FontSize="27" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="0 0 80 0">
+            <StackPanel.Resources>
+                <Style TargetType="Border">
+                    <EventSetter Event="MouseLeftButtonDown" Handler="Border_MouseLeftButtonDown"/>
+                    
+                </Style>
+            </StackPanel.Resources>
+            <Border Background="#FF0EF072" Width="120" Height="40" CornerRadius="20"
+                     Tag="1"
+                    Name="a"
+                    Margin="0 60 0 0">
+                <TextBlock Text="1张" FontFamily="楷体" FontSize="30" HorizontalAlignment="Center"/>
+            </Border>
+            <Border 
+                Name="b"
+                  Tag="2"
+                Background="#FF7AC79C" Width="120" Height="40" CornerRadius="20" Margin="0 10 0 0">
+                <TextBlock Text="2张" FontFamily="楷体" FontSize="30" HorizontalAlignment="Center"/>
+            </Border>
+            <Border 
+                Name="c"   Tag="3"
+                Background="#FF7AC79C" Width="120" Height="40" CornerRadius="20" Margin="0 10 0 0">
+                <TextBlock Text="3张" FontFamily="楷体" FontSize="30" HorizontalAlignment="Center"/>
+            </Border>
+            <Border 
+                Name="d"   Tag="4"
+                Background="#FF7AC79C" Width="120" Height="40" CornerRadius="20" Margin="0 10 0 0">
+                <TextBlock Text="4张" FontFamily="楷体" FontSize="30" HorizontalAlignment="Center"/>
+            </Border>
+            <Border 
+                Name="e"   Tag="5"
+                Background="#FF7AC79C" Width="120" Height="40" CornerRadius="20" Margin="0 10 0 0">
+                <TextBlock Text="5张" FontFamily="楷体" FontSize="30" HorizontalAlignment="Center"/>
+            </Border>
+            <Border 
+                Name="f"  Tag="6"
+                Background="#FF7AC79C" Width="120" Height="40" CornerRadius="20" Margin="0 10 0 0">
+                <TextBlock Text="6张" FontFamily="楷体" FontSize="30" HorizontalAlignment="Center"/>
+            </Border>
+            <Border 
+                  Tag="7"
+                Name="g" Background="#FF7AC79C" Width="120" Height="40" CornerRadius="20" Margin="0 10 0 0">
+                <TextBlock Text="7张" FontFamily="楷体" FontSize="30" HorizontalAlignment="Center"/>
+            </Border>
+            <Border 
+                Name="h"   Tag="8"
+                Background="#FF7AC79C" Width="120" Height="40" CornerRadius="20" Margin="0 10 0 0">
+                <TextBlock Text="8张" FontFamily="楷体" FontSize="30" HorizontalAlignment="Center"/>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Page>
