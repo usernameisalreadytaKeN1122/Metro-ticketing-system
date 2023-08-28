@@ -1,0 +1,126 @@
+﻿<Page x:Class="第二组综合设计地铁购票系统.Adminpage.openAcount"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:第二组综合设计地铁购票系统.Adminpage"
+      mc:Ignorable="d" 
+      d:DesignHeight="380" d:DesignWidth="600"
+      Title="openAcount"
+    
+     ShowsNavigationUI="False"
+      Tag="open"
+      >
+        
+    <StackPanel>
+        <StackPanel.Resources>
+            <Style TargetType="Label" >
+                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="Width" Value="110"/>
+            </Style>
+            <Style TargetType="TextBox">
+                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                
+            </Style>
+            <Style TargetType="PasswordBox">
+                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+
+            </Style>
+        </StackPanel.Resources>
+        <Border  Height="40" Margin="0 10 0 0">
+            <TextBlock  Text="开通账户" Foreground="White" FontSize="25"
+                        FontWeight="Bold"
+                       
+                       
+                        />
+        </Border>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="1">
+                <StackPanel.Resources>
+                    <Style TargetType="TextBlock" >
+                        <Setter Property="Foreground" Value="White"/>
+                    </Style>
+                    
+                </StackPanel.Resources>
+                <TextBlock Text="*用户名由字母开头6-9位数字字母组合" Name="username1" Margin="0 15 0 0"/>
+                <TextBlock Text="*密码长度为8-15位"  Name="pas1" Margin="0 23 0 0"/>
+                <TextBlock Text="*请再次输入密码" Margin="0 23 0 0" Name="rep_pas1"/>
+                <TextBlock Text="*请输入你的姓名"  Margin="0 23 0 0" Name="real_name"/>
+                <TextBlock Text="*请输入18位身份证号"  Margin="0 23 0 0" Name="shenfenzheng1"/>
+                <TextBlock Text="*请输入11位手机号"  Margin="0 23 0 0" Name="phnum1"/>
+            </StackPanel>
+        <StackPanel>
+            <StackPanel.Resources>
+                <Style TargetType="Border">
+
+
+                   
+                    <Setter Property="Width" Value="280"/>
+                    <Setter Property="Background" Value="#29B7EC"/>
+
+                    <Setter Property="CornerRadius" Value="9"/>
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Background" Value="#3CC3F5"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </StackPanel.Resources>
+
+            <Border  Margin="0 10 0 0">
+            <StackPanel Orientation="Horizontal">
+                <Label  Content="用户名:" />
+                <TextBox  Width="180" Name="username" LostFocus="username_LostFocus"/>
+            </StackPanel>
+        </Border>
+        <Border  Margin="0 10 0 0">
+            <StackPanel Orientation="Horizontal">
+                <Label  Content="密码:" />
+                <PasswordBox  Width="180" Name="pas" LostFocus="pas_LostFocus"/>
+            </StackPanel>
+        </Border>
+        <Border  Margin="0 10 0 0">
+            <StackPanel Orientation="Horizontal">
+                <Label  Content="重复密码:" />
+                <PasswordBox  Width="180" Name="rep_pas" LostFocus="rep_pas_LostFocus"/>
+            </StackPanel>
+        </Border>
+        <Border Margin="0 10 0 0">
+            <StackPanel Orientation="Horizontal">
+                <Label  Content="姓名:" />
+                <TextBox  Width="180" Name="nam" LostFocus="nam_LostFocus"/>
+            </StackPanel>
+        </Border>
+        <Border  Margin="0 10 0 0">
+            <StackPanel Orientation="Horizontal">
+                <Label  Content="身份证号:" />
+                <TextBox  Width="180" Name="shenfenzheng" LostFocus="shenfenzheng_LostFocus"/>
+            </StackPanel>
+        </Border>
+        <Border  Margin="0 10 0 0">
+            <StackPanel Orientation="Horizontal">
+                <Label  Content="手机号:" />
+                <TextBox  Width="180" Name="phnum" LostFocus="phnum_LostFocus"/>
+            </StackPanel>
+            
+        </Border >
+                <TextBox Width="0" Height="0" Name="foucss"/>
+                <Border Width="120" Height="40" Margin="0 25 0 0"
+                    Name="submit"
+                    MouseLeftButtonDown="submit_MouseLeftButtonDown"
+                    >
+                <TextBlock Text="确认" Foreground="White" FontSize="28" HorizontalAlignment="Center"/>
+            </Border>
+    </StackPanel>
+        </Grid>
+    </StackPanel>
+   
+</Page>

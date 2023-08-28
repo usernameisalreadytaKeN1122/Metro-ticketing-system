@@ -1,0 +1,136 @@
+﻿<Page x:Class="第二组综合设计地铁购票系统.MainPage.Line_twp"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:第二组综合设计地铁购票系统.MainPage"
+      mc:Ignorable="d" 
+     
+      Title="Line_twp">
+    <Page.Resources>
+        <ResourceDictionary>
+            <DrawingBrush x:Key="MyGridBrushResource" Opacity="0.25"
+            Viewport="0,0,10,10" ViewportUnits="Absolute" TileMode="Tile">
+                <DrawingBrush.Drawing>
+                    <DrawingGroup>
+                        <GeometryDrawing Geometry="M0,0 L1,0 1,1 0,1z"
+                        Brush="White" />
+                        <GeometryDrawing Brush="#9999FF">
+                            <GeometryDrawing.Geometry>
+                                <GeometryGroup>
+                                    <RectangleGeometry Rect="0,0,1,0.1" />
+                                    <RectangleGeometry Rect="0,0.1,0.1,0.9" />
+                                </GeometryGroup>
+                            </GeometryDrawing.Geometry>
+                        </GeometryDrawing>
+                    </DrawingGroup>
+                </DrawingBrush.Drawing>
+            </DrawingBrush>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid Background="{StaticResource MyGridBrushResource}">
+        <Canvas Width="900" Height="500">
+            <Canvas.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                    <Setter Property="Width" Value="85"/>
+                    <Setter Property="Height" Value="32"/>
+                    <Setter Property="Background" Value="#FFF4F4BB" />
+                    <EventSetter Event="MouseLeftButtonDown" Handler="Border_MouseLeftButtonDown"/>
+                </Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                </Style>
+                <Style TargetType="Image">
+                    <Setter Property="Width" Value="35"/>
+                </Style>
+            </Canvas.Resources>
+            <Border Background="#FFE5F621" Canvas.Left="162" Canvas.Top="132" Tag="1">
+                <TextBlock Text="刘庄"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="247" Canvas.Top="132" />
+            <Border  Canvas.Left="282" Canvas.Top="132"  Width="86" Tag="2" >
+                <TextBlock Text="柳林"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="368" Canvas.Top="132" />
+            <Border  Canvas.Left="403" Canvas.Top="132"  Width="86" Tag="3" >
+                <TextBlock Text="沙门"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="489" Canvas.Top="132" />
+            <Border  Canvas.Left="524" Canvas.Top="132"  Width="86"  Tag="4">
+                <TextBlock Text="北三环"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="610" Canvas.Top="132" />
+            <Border  Canvas.Left="645" Canvas.Top="132"  Width="86" Tag="5">
+                <TextBlock Text="东风路"  />
+            </Border>
+            <Image Source="箭头下 拷贝.png" Canvas.Left="674" Canvas.Top="169" Width="27" Height="27"/>
+            <Border  Canvas.Left="645" Canvas.Top="201" Width="86" Tag="6">
+                <TextBlock Text="关虎屯"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="610" Canvas.Top="201" />
+            <Border  Canvas.Left="524" Canvas.Top="201"  Width="86" Tag="7">
+                <TextBlock Text="黄河路"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="489" Canvas.Top="201" />
+            <Border  Canvas.Left="403" Canvas.Top="201"  Width="86" Tag="8" >
+                <TextBlock Text="紫荆山"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="368" Canvas.Top="201" />
+            <Border  Canvas.Left="282" Canvas.Top="201"  Width="86" Tag="9">
+                <TextBlock Text="东大街"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="247" Canvas.Top="201" />
+
+            <Border  Canvas.Left="162" Canvas.Top="201"  Width="86" Tag="10">
+                <TextBlock Text="陇海东路"  />
+            </Border>
+            <Image Source="箭头下 拷贝.png" Canvas.Left="193" Canvas.Top="238" Width="27"/>
+            <Border  Canvas.Left="162" Canvas.Top="270"  Width="86" Tag="11">
+                <TextBlock Text="二里岗"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="247" Canvas.Top="270" />
+            <Border  Canvas.Left="282" Canvas.Top="270"  Width="86" Tag="12">
+                <TextBlock Text="南五里堡"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="368" Canvas.Top="270" />
+            <Border  Canvas.Left="403" Canvas.Top="270"  Width="86" Tag="13">
+                <TextBlock Text="花寨"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="489" Canvas.Top="270" />
+            <Border  Canvas.Left="524" Canvas.Top="270"  Width="86" Tag="14">
+                <TextBlock Text="站马屯"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="610" Canvas.Top="270" />
+            <Border  Canvas.Left="645" Canvas.Top="270"  Width="86" Tag="15">
+                <TextBlock Text="南四环"  />
+            </Border>
+
+        </Canvas>
+        <Border Width="75" Height="30"  
+                            VerticalAlignment="Center" Margin="0 380 750 0"
+                            Background="#FFE5F621" CornerRadius="10">
+            <StackPanel Orientation="Horizontal"  VerticalAlignment="Center">
+                <Border VerticalAlignment="Stretch" >
+                    <Label Content="2" FontSize="30"
+                                       Margin="0 -7 0 0"
+                                       FontWeight="Bold"
+                                       VerticalContentAlignment="Stretch" FontFamily="宋体"/>
+                </Border>
+                <StackPanel>
+                    <Border>
+                        <Label Content="号线"  
+                                       FontSize="12" Margin="0 -3 0 -15"
+                                      />
+                    </Border>
+                    <Border>
+                        <Label Content="No.2"  
+                                       FontSize="12"
+                                      />
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

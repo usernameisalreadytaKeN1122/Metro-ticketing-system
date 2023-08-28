@@ -1,0 +1,196 @@
+﻿<Page x:Class="第二组综合设计地铁购票系统.MainPage.Line_one"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:第二组综合设计地铁购票系统.MainPage"
+      mc:Ignorable="d" 
+     
+      Title="Line_one" >
+    <Page.Resources>
+        <ResourceDictionary>
+            <DrawingBrush x:Key="MyGridBrushResource" Opacity="0.25"
+            Viewport="0,0,10,10" ViewportUnits="Absolute" TileMode="Tile">
+                <DrawingBrush.Drawing>
+                    <DrawingGroup>
+                        <GeometryDrawing Geometry="M0,0 L1,0 1,1 0,1z"
+                        Brush="White" />
+                        <GeometryDrawing Brush="#9999FF">
+                            <GeometryDrawing.Geometry>
+                                <GeometryGroup>
+                                    <RectangleGeometry Rect="0,0,1,0.1" />
+                                    <RectangleGeometry Rect="0,0.1,0.1,0.9" />
+                                </GeometryGroup>
+                            </GeometryDrawing.Geometry>
+                        </GeometryDrawing>
+                    </DrawingGroup>
+                </DrawingBrush.Drawing>
+            </DrawingBrush>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid Background="{StaticResource MyGridBrushResource}">
+        <Canvas  Width="900" Height="500">
+            <Canvas.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                    <Setter Property="Width" Value="85"/>
+                    <Setter Property="Height" Value="32"/>
+                    <Setter Property="Background" Value="#FFF06464" />
+                    <EventSetter Event="MouseLeftButtonDown" Handler="Border_MouseLeftButtonDown"/>
+                </Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                </Style>
+                <Style TargetType="Image">
+                    <Setter Property="Width" Value="35"/>
+                </Style>
+            </Canvas.Resources>
+            <Border Background="#FFF03331" Canvas.Left="40" Canvas.Top="63" Tag="1">
+                <TextBlock Text="河南工业大学"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="125" Canvas.Top="63" />
+            <Border  Canvas.Left="160" Canvas.Top="63" Tag="2">
+                <TextBlock Text="郑大科技园"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="245" Canvas.Top="63"/>
+            <Border  Canvas.Left="280" Canvas.Top="63" Tag="3">
+                <TextBlock Text="郑州大学"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="365" Canvas.Top="63" />
+            <Border  Canvas.Left="400" Canvas.Top="63" Tag="4" >
+                <TextBlock Text="梧桐街"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="485" Canvas.Top="63" />
+            <Border  Canvas.Left="520" Canvas.Top="63" Tag="5">
+                <TextBlock Text="兰寨"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="605" Canvas.Top="63" />
+            <Border  Canvas.Left="640" Canvas.Top="63" Tag="6">
+                <TextBlock Text="铁炉"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="725" Canvas.Top="63" />
+            <Border  Canvas.Left="760" Canvas.Top="63" Tag="7">
+                <TextBlock Text="市民中心"  />
+            </Border>
+            <Image Source="箭头下 拷贝.png" Canvas.Left="787" Canvas.Top="100" Width="27"/>
+            <Border  Canvas.Left="760" Canvas.Top="132" Tag="8">
+                <TextBlock Text="西流湖"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="725" Canvas.Top="132"/>
+            <Border  Canvas.Left="640" Canvas.Top="132" Tag="9">
+                <TextBlock Text="西三环"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="605" Canvas.Top="132"/>
+            <Border  Canvas.Left="520" Canvas.Top="132" Tag="10" >
+                <TextBlock Text="秦岭路"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="485" Canvas.Top="132"/>
+            <Border  Canvas.Left="280" Canvas.Top="132"  Tag="12">
+                <TextBlock Text="碧沙岗"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="245" Canvas.Top="132"/>
+            <Border  Canvas.Left="400" Canvas.Top="132" Tag="11">
+                <TextBlock Text="五一公园"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="365" Canvas.Top="132"/>
+            <Border  Canvas.Left="160" Canvas.Top="132"  Tag="13">
+                <TextBlock Text="绿城广场"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="125" Canvas.Top="132"/>
+            <Border  Canvas.Left="40" Canvas.Top="132" Tag="14">
+                <TextBlock Text="医学院"  />
+            </Border>
+            <Image Source="箭头下 拷贝.png" Canvas.Left="64" Canvas.Top="169" Width="27"/>
+            <Border  Canvas.Left="40" Canvas.Top="202" Tag="15">
+                <TextBlock Text="郑州火车站"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="125" Canvas.Top="202"/>
+            <Border  Canvas.Left="160" Canvas.Top="202" Tag="16">
+                <TextBlock Text="二七广场"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="245" Canvas.Top="202"/>
+            <Border  Canvas.Left="280" Canvas.Top="202" Tag="17">
+                <TextBlock Text="人民路"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="365" Canvas.Top="202"/>
+            <Border  Canvas.Left="400" Canvas.Top="202" Tag="18">
+                <TextBlock Text="紫荆山"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="485" Canvas.Top="202"/>
+            <Border  Canvas.Left="520" Canvas.Top="202" Tag="19">
+                <TextBlock Text="燕庄"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="605" Canvas.Top="202"/>
+            <Border  Canvas.Left="640" Canvas.Top="202" Tag="20">
+                <TextBlock Text="民航路"  />
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="725" Canvas.Top="202"/>
+            <Border  Canvas.Left="760" Canvas.Top="202" Tag="21">
+                <TextBlock Text="会展中心"  />
+            </Border>
+            <Image Source="箭头下 拷贝.png" Canvas.Left="787" Canvas.Top="239" Width="27"/>
+            <Border  Canvas.Left="760" Canvas.Top="271" Tag="22">
+                <TextBlock Text="黄河南路"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="725" Canvas.Top="271"/>
+            <Border  Canvas.Left="640" Canvas.Top="271" Tag="23">
+                <TextBlock Text="农业南路"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="605" Canvas.Top="271"/>
+            <Border  Canvas.Left="520" Canvas.Top="271" Tag="24">
+                <TextBlock Text="东风南路"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="485" Canvas.Top="271"/>
+            <Border  Canvas.Left="400" Canvas.Top="271" Tag="25">
+                <TextBlock Text="郑州东站"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="365" Canvas.Top="271"/>
+            <Border  Canvas.Left="280" Canvas.Top="271" Tag="26">
+                <TextBlock Text="博学路"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="245" Canvas.Top="271"/>
+            <Border  Canvas.Left="160" Canvas.Top="271" Tag="27">
+                <TextBlock Text="市体育中心"  />
+            </Border>
+            <Image Source="a.png" Canvas.Left="125" Canvas.Top="271"/>
+            <Border  Canvas.Left="40" Canvas.Top="271" Tag="28" >
+                <TextBlock Text="龙子湖"   />
+            </Border>
+            <Image Source="箭头下 拷贝.png" Canvas.Left="64" Canvas.Top="308" Width="27"/>
+          
+            <Border  Canvas.Left="40" Canvas.Top="340" >
+                <TextBlock Text="文苑北路"  Tag="29"/>
+            </Border>
+            <Image Source="arrow.png"  Canvas.Left="125" Canvas.Top="340"/>
+            <Border  Canvas.Left="160" Canvas.Top="340" Tag="30">
+                <TextBlock Text="河南大学新区"  />
+            </Border>
+           
+        </Canvas>
+        <Border Width="75" Height="30"  
+                            VerticalAlignment="Center" Margin="0 380 750 0"
+                            Background="#FFF03331" CornerRadius="10">
+            <StackPanel Orientation="Horizontal"  VerticalAlignment="Center">
+                <Border VerticalAlignment="Stretch" >
+                    <Label Content="1" FontSize="30"
+                                       Margin="0 -7 0 0"
+                                       FontWeight="Bold"
+                                       VerticalContentAlignment="Stretch" FontFamily="宋体"/>
+                </Border>
+                <StackPanel>
+                    <Border>
+                        <Label Content="号线"  
+                                       FontSize="12" Margin="0 -3 0 -15"
+                                      />
+                    </Border>
+                    <Border>
+                        <Label Content="No.1"  
+                                       FontSize="12"
+                                      />
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

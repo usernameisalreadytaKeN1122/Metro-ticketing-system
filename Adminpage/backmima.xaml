@@ -1,0 +1,94 @@
+﻿<Page x:Class="第二组综合设计地铁购票系统.Adminpage.backmima"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:第二组综合设计地铁购票系统.Adminpage"
+      mc:Ignorable="d" 
+      d:DesignHeight="380" d:DesignWidth="600"
+      ShowsNavigationUI="False"
+      Title="backmima"
+     Tag="back"
+      >
+
+   
+    <StackPanel>
+        <Border  Height="40" Margin="0 10 0 0">
+            <TextBlock  Text="找回密码" Foreground="White" FontSize="25"
+                        FontWeight="Bold"
+                        HorizontalAlignment="Center"                       
+                        />
+        </Border>
+        <StackPanel>
+            <StackPanel.Resources>
+                <Style TargetType="Border">
+
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="Background" Value="#29B7EC"/>
+
+                    <Setter Property="CornerRadius" Value="9"/>
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Background" Value="#3CC3F5"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+                <Style TargetType="Label" >
+                    <Setter Property="FontSize" Value="15"/>
+                    <Setter Property="Foreground" Value="White" />
+                    <Setter Property="Width" Value="110"/>
+                </Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="FontSize" Value="15"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+
+                </Style>
+            </StackPanel.Resources>
+            <Border HorizontalAlignment="Center" Margin="0 10 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <Label  Content="用户名:" />
+                    <TextBox  Width="180" Name="username" />
+                </StackPanel>
+            </Border>
+            <Border HorizontalAlignment="Center" Margin="0 20 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <Label  Content="姓名:" />
+                    <TextBox  Width="180" Name="real_name"/>
+                </StackPanel>
+            </Border>
+            <Border HorizontalAlignment="Center" Margin="0 20 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <Label  Content="身份证号:" />
+                    <TextBox  Width="180" Name="shenfenzheng"/>
+                </StackPanel>
+            </Border>
+            <Border HorizontalAlignment="Center" Margin="0 20 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <Label  Content="手机号:" />
+                    <TextBox  Width="180" Name="phnum"/>
+                </StackPanel>
+            </Border >
+            <StackPanel Orientation="Horizontal">
+                <Border HorizontalAlignment="Center" Margin="189 20 0 0" >
+                    <StackPanel Orientation="Horizontal">
+                        <Label  Content="输入新密码:" />
+                        <PasswordBox  Width="180" Name="newpass" FontSize="15" 
+                                      LostFocus="new_pa_LostFocus"
+                                  />
+                    </StackPanel>
+                </Border>
+                <TextBlock Text="*密码长度为8-15位" 
+                           Margin="5 15 0 0"
+                           Foreground="White"
+                           Name="new_pa" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </StackPanel>
+            <TextBox Width="0" Height="0" Name="foucss"/>
+            <Border Width="120" Height="40" Margin="0 25 0 0" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+                <TextBlock Text="确认" Foreground="White" FontSize="28" HorizontalAlignment="Center"/>
+            </Border>
+        </StackPanel>
+    </StackPanel>
+</Page>

@@ -1,0 +1,168 @@
+﻿<Page x:Class="第二组综合设计地铁购票系统.MainPage.AllPath"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:第二组综合设计地铁购票系统.MainPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="900"
+   
+      Title="AllPath">
+
+    <DockPanel>
+        <Border Width="200" DockPanel.Dock="Right">
+            <Border.Resources>
+                <Style TargetType="Image">
+                    <Setter Property="Width" Value="20"/>
+                    <Setter Property="Height" Value="20"/>
+                </Style>
+            </Border.Resources>
+           
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                        <Setter Property="Background" Value="#29B7EC"/>
+                        <Setter Property="Width" Value="130"/>
+                        <Setter Property="CornerRadius" Value="5"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" Value="#3CC3F5"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="FontSize" Value="18"/>
+                        <Setter Property="Foreground" Value="White"/>
+                    </Style>
+                </StackPanel.Resources>
+                <Border Margin="0 10 0 0 " Background="Transparent">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Image Source="购票 拷贝.png" />
+                        <TextBlock  Text="快捷购票" />
+                    </StackPanel>
+                </Border>
+                <Separator />
+
+                <Border Tag="two" Margin="0 10 0 0" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Image Source="票 拷贝.png"/>
+                        <TextBlock  Text="2元票" />
+                    </StackPanel>
+                </Border>
+
+                <Border Tag="three" Margin="0 10 0 0" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Image Source="票 拷贝.png"/>
+                        <TextBlock  Text="3元票"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Tag="four" Margin="0 10 0 0" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Image Source="票 拷贝.png"/>
+                        <TextBlock  Text="4元票"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Tag="five" Margin="0 10 0 0" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Image Source="票 拷贝.png"/>
+                        <TextBlock  Text="5元票"/>
+                    </StackPanel>
+                </Border>
+
+
+
+                <Border Tag="six" Margin="0 10 0 10" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Image Source="票 拷贝.png"/>
+                        <TextBlock  Text="6元票(通票)"/>
+                    </StackPanel>
+                </Border>
+                <Border Background="Transparent">
+                    <StackPanel>
+                        <Label Content="默认为本线路起" FontSize="15" Foreground="#FF0E7459"/>
+                    </StackPanel>
+                </Border>
+                <Border Background="Transparent" Margin="80 0 0 0">
+                    <StackPanel>
+                        <Label Content="始站" FontSize="15" Foreground="#FF0E7459"/>
+                    </StackPanel>
+                </Border>
+                <Separator/>
+
+                <Border Background="Transparent" Margin="0 10 0 0">
+                    <StackPanel Orientation="Vertical">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Image Source="站点 拷贝.png"/>
+                            <Label Content="起始站点:" FontSize="20" Foreground="White"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" 
+                                    HorizontalAlignment="Center" Margin="0 10 0 0 ">
+                            <TextBlock Name="sourcePoint" Text="未选" Foreground="#FF0E7459" FontSize="20"></TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+                <Border Background="Transparent" Margin="0 10 0 0">
+                    <StackPanel Orientation="Horizontal" Width="50" Margin="25 0 0 0">
+                        <Image Source="地铁 拷贝.png"  HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Background="Transparent" Margin="0 0 0 0">
+                    <StackPanel Orientation="Vertical">
+                        <StackPanel Orientation="Horizontal" 
+                                   Margin="0 10 0 10" HorizontalAlignment="Center">
+                            <Image Source="目的 拷贝.png"/>
+                            <Label Content="目的车站:" FontSize="20" Foreground="White"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBlock Name="destinctionPoint" Text="未选" Foreground="#FF0E7459" FontSize="20"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Border>
+
+
+        <StackPanel DockPanel.Dock="Right">
+            <StackPanel Height="50" Orientation="Horizontal">
+                <StackPanel.Resources>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Margin" Value="10"/>
+                            <Setter Property="FontSize" Value="15"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                        <Style TargetType="Border">
+                            <Setter Property="Margin" Value="20,5,20,5"/>
+                            <Setter Property="CornerRadius" Value="10"/>
+                            <Setter Property="Background" Value="#FFC62F2F"/>
+                        </Style>
+                    </StackPanel.Resources>
+                <Border Background="#FF0FE56E"  Name="allLineBtn" MouseLeftButtonDown="allLineBtn_MouseLeftButtonDown">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock Text="总线"></TextBlock>
+                    </StackPanel>
+                </Border>
+                <Border Name="line1Btn" Background="#FFF06464" MouseLeftButtonDown="allLineBtn_MouseLeftButtonDown">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock Text="一号线"></TextBlock>
+                    </StackPanel>
+                </Border>
+                <Border  Name="line2Btn" Background="#FFF4F4BB" MouseLeftButtonDown="allLineBtn_MouseLeftButtonDown">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock Text="二号线"></TextBlock>
+                    </StackPanel>
+                </Border>
+                <Border  Name="line3Btn" Background="#FFE1CAEE" MouseLeftButtonDown="allLineBtn_MouseLeftButtonDown">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock Text="城郊线"></TextBlock>
+                    </StackPanel>
+                </Border>
+
+            </StackPanel>
+            <Frame Name="fff"/>
+        </StackPanel>
+    </DockPanel>
+</Page>

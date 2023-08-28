@@ -1,0 +1,43 @@
+﻿<Page x:Class="第二组综合设计地铁购票系统.Adminpage.Sucess"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:第二组综合设计地铁购票系统.Adminpage"
+      mc:Ignorable="d" 
+      d:DesignHeight="380" d:DesignWidth="600"
+     
+      Title="Sucess">
+
+    <StackPanel>
+        <StackPanel.Resources>
+            <Style TargetType="Border" x:Key="aa">
+
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="Background" Value="#29B7EC"/>
+
+                <Setter Property="CornerRadius" Value="9"/>
+
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="true">
+                        <Setter Property="Background" Value="#3CC3F5"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </StackPanel.Resources>
+        <Border HorizontalAlignment="Center"  Margin="0 120 0 20">
+            <StackPanel Orientation="Horizontal">
+                <Image  Source="支付成功Page.png" Width="50" Height="50"/>
+                <Label  Content="操作成功" FontSize="40" Foreground="Green"/>
+            </StackPanel>
+        </Border>
+        <Border Width="100" Height="40" Margin=" 20 5 0 0" Style="{StaticResource aa}"
+                MouseLeftButtonDown="Border_MouseLeftButtonDown"
+                >
+            <TextBlock Text="返回" FontSize="15" Foreground="White"
+                       
+                               VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+    </StackPanel>
+</Page>
