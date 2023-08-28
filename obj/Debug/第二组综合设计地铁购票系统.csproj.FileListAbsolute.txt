@@ -1,0 +1,130 @@
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\第二组综合设计地铁购票系统.exe.config
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\第二组综合设计地铁购票系统.exe
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\第二组综合设计地铁购票系统.pdb
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.csprojAssemblyReference.cache
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainWindow.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\App.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统_MarkupCompile.cache
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统_MarkupCompile.lref
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainWindow.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MyD.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.g.resources
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.Properties.Resources.resources
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.csproj.GenerateResource.cache
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.csproj.CoreCompileInputs.cache
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.exe
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.pdb
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Login.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Login.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\UserLogin.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\UserLogin.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\AdminW.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\AdminW.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\backmima.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\openAcount.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\backmima.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\openAcount.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\Del.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\query.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\充值.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\Del.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\query.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\充值.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\db\Database1.mdf
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\db\Database1_log.ldf
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统_Content.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\Database1.mdf
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\Database1_log.ldf
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\EntityFramework.dll
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\EntityFramework.SqlServer.dll
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\EntityFramework.xml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\EntityFramework.SqlServer.xml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.csproj.CopyComplete
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\Sucess.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\Sucess.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\cccc.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\cccc.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\AllPath.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\AllPath.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Path.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Path.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Line_one.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Line_suburban.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Line_two.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Line_one.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Line_suburban.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Line_two.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\Pay.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\Payok.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\SelectNum.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\Pay.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\Payok.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\SelectNum.baml
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\PayNo.g.cs
+F:\C#代码\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\PayNo.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\db\Database1.mdf
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\db\Database1_log.ldf
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\Database1.mdf
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\Database1_log.ldf
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\第二组综合设计地铁购票系统.exe.config
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\第二组综合设计地铁购票系统.exe
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\第二组综合设计地铁购票系统.pdb
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\EntityFramework.dll
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\EntityFramework.xml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.csprojAssemblyReference.cache
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\backmima.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\cccc.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\Del.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\openAcount.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\query.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\Sucess.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\充值.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\AdminW.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Login.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\AllPath.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Line_one.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Line_suburban.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Line_two.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Path.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainWindow.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\UserLogin.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\Pay.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\PayNo.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\Payok.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\SelectNum.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\App.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统_Content.g.cs
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统_MarkupCompile.cache
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统_MarkupCompile.lref
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\backmima.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\cccc.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\Del.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\openAcount.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\query.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\Sucess.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Adminpage\充值.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\AdminW.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\Login.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\AllPath.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Line_one.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Line_suburban.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Line_two.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainPage\Path.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MainWindow.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\MyD.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\UserLogin.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\Pay.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\PayNo.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\Payok.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\VPage\SelectNum.baml
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.g.resources
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.Properties.Resources.resources
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.csproj.GenerateResource.cache
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.csproj.CopyComplete
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.exe
+C:\Users\1\Documents\Tencent Files\278935339\FileRecv\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\第二组综合设计地铁购票系统\obj\Debug\第二组综合设计地铁购票系统.pdb

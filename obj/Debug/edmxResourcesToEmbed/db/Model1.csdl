@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Username" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="time" Type="String" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Username" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="IDCard" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="Phonenum" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="jifen" Type="Int32" />
+    <Property Name="money" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="MyDb1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Ticket" EntityType="Self.Ticket" />
+    <EntitySet Name="User" EntityType="Self.User" />
+  </EntityContainer>
+</Schema>
